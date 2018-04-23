@@ -15,5 +15,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  returns "The "
+  if( katzDeliLine.length>0) {
+    return `The line is currently: 1. ${katzDeliLine[0]}, 2. ${katzDeliLine[1]
+  }
 }
